@@ -1,0 +1,66 @@
+
+/* Core styles for the page */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    color: #363636;
+}
+
+code {
+    font-size: 1.1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #369;
+    text-decoration: underline;
+}
+
+/* User registration styles */
+span.invalid {
+    padding-left: 3px;
+    color: red;
+}
+
+span.success {
+   padding-left: 3px;
+   color: green;
+}
+
+/* User table styles */
+#users {
+    display: table;
+    width: 100%;
+}
+
+#users .row {
+    display: table-row;
+}
+
+#users .row .col {
+    display: table-cell;
+    width: auto;
+    border: 1px solid #ccc;
+}
+
+#users .head {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 1px 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#users .data {
+    padding: 1px 5px;
+    font-size: 11px;
+}
+
+.user-foot {
+    clear: both;
+    height: 20px;
+    font-weight: bold;
+}
