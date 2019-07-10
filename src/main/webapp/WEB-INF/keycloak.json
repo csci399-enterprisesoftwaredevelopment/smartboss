@@ -1,0 +1,10 @@
+{
+  "realm": "SmartBoss",
+  "auth-server-url": "http://localhost:8180/auth",
+  "ssl-required": "external",
+  "resource": "viewUser",
+  "credentials": {
+    "secret": "644ec9b3-fef5-4beb-8c19-0eead97bee0c"
+  },
+  "use-resource-role-mappings": true
+}
